@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    max-width: 100%;
+}
+.navbar{
+    width: 100%;
+    padding: 15px 40px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    box-shadow: 0px 10px 30px black;
+    justify-content: space-between;
+    background: linear-gradient(to bottom right,rgb(45,200,500),teal,rgb(45,200,500));
+    font-family: 'Style Script', cursive;
+}
+.navbar .logo {
+    color: black;
+    font-size: 30px;
+    font-weight: 800;
+}
+.navbar .menu li{
+    list-style: none;
+    display: inline-block;
+}
+.navbar .menu li a{
+    color: black;
+    font-size: 20px;
+    font-weight: 800;
+    margin-left: 20px;
+    transition: color 0.3s ease;
+}
+.navbar .menu li a:hover{
+    color:white;
+}
+span{
+    color:white;
+}
+body {
+    background: linear-gradient(to bottom right,rgb(45,200,500),teal,rgb(45,200,500));
+    background-repeat: no-repeat;
+    text-align: center;
+    font-family: 'Style Script', cursive;
+}
+h1{
+    padding: 25px 0px;
+    box-sizing: border-box;
+    font-style: italic;
+    font-size: 35px;
+    font-weight: bold;
+}
+p{
+    font-size: medium;
+    font-weight: bold;
+    padding: 15px;
+}
+.box {
+    box-shadow: -10px 10px 40px rgb(3 39 39);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    justify-content: center;
+    max-width: 600px;
+    margin: 50px auto 25px;
+    border: solid teal 0.5px;
+    background: linear-gradient(to bottom right,rgb(45,200,500),teal,rgb(45,200,500));
+}
+.question-container{
+    box-shadow: -10px 10px 40px rgb(3 39 39);
+    border-radius: 10px;
+    width: 80%;
+    justify-content: center;
+    margin: 50px auto 25px;
+    border: solid teal 0.5px;
+    background: linear-gradient(to bottom right,rgb(45,200,500),teal,rgb(45,200,500));   
+}
+.input-label {
+    display: block;
+    font-size: large;
+    font-weight: 600;
+    padding: 15px;
+}
+  
+.input {
+    font-size: 15px;
+    padding: 10px;
+    margin: 10px auto;
+    border: 2px solid teal;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 250px;
+}
+  
+#check-btn {
+    background: teal;
+    padding: 10px 25px;
+    border-radius: 10px;
+    font-size: large;
+    font-family: 'Style Script', cursive;
+    cursor: pointer;
+    margin: 10px auto;
+    display: block;
+}
+.output {
+    display: none;
+    font-size: large;
+    margin: 25px auto;
+    padding: 20px;
+    font-weight: 600;
+}
